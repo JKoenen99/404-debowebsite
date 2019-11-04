@@ -9,20 +9,47 @@ body {
 }
 
 html {
-    background-color: #1c1c27;
+    background: linear-gradient(112deg, #0d2f2d, #014a46);
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    -o-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
 }
 
-h2 {
+section {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+section h2 {
     text-align: center;
     color: #fff;
-    text-transform: capitalize;
     font-weight: 900;
-    position: fixed;
-    margin: auto;
-    width: 100vw;
-    height: 100vh;
-    z-index: 99;
     font-size: 4em;
+    text-shadow: 0 0 5px #FFF, 0 0 88px #FFF, 0 0 15px #FFF, 0 0 20px #0c454b, 0 0 30px #03132b, 0 0 40px #063e3a, 0 0 55px #09413f, 0 0 75px #0c2a24;
+}
+
+section p {
+    color: lightblue;
 }
 
 #lottie{
