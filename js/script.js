@@ -4,7 +4,7 @@ var animation = bodymovin.loadAnimation({
   container: document.getElementById('lottie'), // Required
   path: 'js/data.json', // Required
   renderer: 'svg', // Required
-  loop: false, // Optional
+  loop: true, // Optional
   autoplay: false, // Optional
   name: "Lost in space", // Name for future reference. Optional.
 })
