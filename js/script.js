@@ -4,5 +4,6 @@ var animation = bodymovin.loadAnimation({
   renderer: 'svg', // Required
   loop: true, // Optional
   autoplay: true, // Optional
-  name: "Hello World", // Name for future reference. Optional.
+  name: "Lost in space", // Name for future reference. Optional.
 })
+
